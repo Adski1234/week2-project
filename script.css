@@ -62,3 +62,21 @@ h1{
 }
 
 @media (min-width:800px){
+
+    h1{
+    font-size: 1.75rem; 
+    margin-left: 20px;
+  }
+
+
+  .thumbBtn{
+    top: 14px;
+    bottom: auto;
+    right: 18px;
+  }
+
+  .thumbImg{
+    width: 160px;
+    height: 100px;
+  }
+}
