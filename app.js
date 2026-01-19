@@ -10,10 +10,6 @@ console.log ("Yo! Whatsup")
 
 let imageNumberThing = 0;
 
-<<<<<<< HEAD
-
-=======
->>>>>>> a517980 ("got rid of broken button")
 const track = document.getElementById("track");
 const thumbBtn = document.getElementById("thumbBtn");
 const thumbImg = document.getElementById("thumbImg");
@@ -32,13 +28,11 @@ function buildSlides(){
 
 function updateView(){
 
-<<<<<<< HEAD
   const moveX = imageNumberThing * window.innerWidth;
   track.style.transform = "translateX(-" + moveX + "px)";
 
   document.body.style.backgroundImage = "url('" + images[imageNumberThing].src + "')";
 
-=======
   
   const moveX = imageNumberThing * window.innerWidth;
   track.style.transform = "translateX(-" + moveX + "px)";
@@ -46,16 +40,11 @@ function updateView(){
   
   document.body.style.backgroundImage = "url('" + images[imageNumberThing].src + "')";
 
-  
->>>>>>> a517980 ("got rid of broken button")
+ 
   thumbImg.src = images[imageNumberThing].src;
   thumbImg.alt = "thumbnail for " + images[imageNumberThing].alt;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> a517980 ("got rid of broken button")
 function goNext(){
   imageNumberThing = imageNumberThing + 1;
 
@@ -80,10 +69,6 @@ thumbBtn.addEventListener("click", function(){
   goNext();
 });
 
-<<<<<<< HEAD
-=======
-
->>>>>>> a517980 ("got rid of broken button")
 document.addEventListener("keydown", function(e){
   if(e.key === "ArrowRight"){
     goNext();
@@ -93,10 +78,7 @@ document.addEventListener("keydown", function(e){
   }
 });
 
-<<<<<<< HEAD
-=======
 
->>>>>>> a517980 ("got rid of broken button")
 window.addEventListener("resize", function(){
   updateView();
 });
